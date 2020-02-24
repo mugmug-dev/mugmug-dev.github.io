@@ -1,21 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>mugmug playground</title>
+    <title>mugmug apps</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-    <div id="main">
-        <div style="height:500px;"></div>
-        <p><label style="margin-left:200px;">TextField: <input type="text" name="test" id="target" size="60" maxlength="100" style="border:1px gray solid; height:30px; font-size:12pt; margin-left:20px;"></label></p>
-        <p id="output" style="margin-left:200px;">empty</p>
-        <div style="height:500px; width:2000px;"></div>
-    </div>
 </body>
-<script type="text/javascript">
-    window.onscroll = function(){
-        let rect = document.getElementById("target").getBoundingClientRect();
-        document.getElementById("output").innerHTML = "x: " + rect.left + window.pageXOffset + ", y: " + rect.top + window.pageYOffset + ", width: " + rect.width + ", height: " + rect.height;
-    }
-</script>
 </html>
